@@ -1,0 +1,82 @@
+*{margin: 0%;}
+body{
+   
+}
+
+header{
+   display: flex;
+   height: 40px;
+   background-image: radial-gradient(circle at -18.3% 68.3%, #ffffff 0, #fffdf7 50%, #92a1c2 100%);
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px;
+   }
+
+a{
+   text-decoration: none;
+   font-weight: 700;
+   padding-right: 15px;
+    }
+
+nav{
+   padding-top: 10px;
+   
+ }
+
+.div-link{
+   font-size: 1.2em;
+}
+.logo{
+   display: flex;
+
+ }
+ .logo{
+   height: 55px;
+   margin-right: 10px;
+  
+   
+   }
+.trainon{
+ 
+   padding-left: 15px;
+   padding-top: 10px;
+   }   
+nav a:hover{ 
+   color: rgb(235, 243, 243);
+}
+
+h1{font-size: 2.2em;}
+h2{font-size: 2.9em;
+color: #3f4041;}
+h3{font-size: 2.6em;
+   color: #3f4041;}
+h4{font-size: 1.9em;}
+
+button{
+   font-size: 1.4em;
+   font-weight: bold;
+   padding: 8px 10px;
+   border-radius: 20px;
+   border: 1px solid rgb(169, 160, 175);
+   box: shadow 2px 2px ;rgb(169, 160, 175);
+   color: rgb(73, 7, 160);
+   background: #92a1c2;
+   }
+button:hover{
+   background-color:rgb(235, 243, 243);
+}
+
+#hero{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url(Imagen3.jpg);
+   height: 350px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+
